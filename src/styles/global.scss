@@ -1,0 +1,134 @@
+:root {
+    --color-primary: #FF577F;
+    --color-primary-Focus: #FF427F;
+    --color-primary-Negative: #59323F;
+    --color-gray-4: #121214;
+    --color-gray-3: #212529;
+    --color-gray-2: #343B41;
+    --color-gray-1: #868E96;
+    --color-gray-0: #F8F9FA;
+    --color-success: #3FE864;
+    --color-negative: #E83F5B;
+    --font-primary: "Inter", sans-serif;
+    background-color: #121214;
+}
+
+.btn {
+    height: 3rem;
+    width: 23rem;
+    padding: 0 1.3959rem;
+    justify-content: center;
+    align-items: center;
+    gap: .6345rem;
+
+    border-radius: .2538rem;
+    border: .0761rem solid var(--color-primary, #FF577F);
+    background: var(--color-primary, #FF577F);
+    color: #FFFFFF;
+
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.6496rem;
+}
+
+.btn:hover {
+    height: 3rem;
+    padding: 0 1.3959rem;
+    justify-content: center;
+    align-items: center;
+    gap: .6345rem;
+
+    border-radius: .2538rem;
+    border: .0761rem solid var(--color-primary-Focus);
+    background: var(--color-primary-Focus);
+    color: #FFFFFF;
+
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.6496rem;
+}
+
+.btn-negative {
+    height: 3rem;
+    width: 23rem;
+    padding: 0 1.3959rem;
+    justify-content: center;
+    align-items: center;
+    gap: .6345rem;
+
+    border-radius: .2538rem;
+    border: .0761rem solid var(--color-primary-Negative);
+    background: var(--color-primary-Negative);
+    color: #FFFFFF;
+
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.6496rem;
+}
+
+.btn-disabled {
+    height: 3rem;
+    padding: 0 1.3959rem;
+    justify-content: center;
+    align-items: center;
+    gap: .6345rem;
+
+    border-radius: .2538rem;
+    border: .0761rem solid var(--color-gray-1);
+    background: var(--color-gray-1);
+    color: #FFFFFF;
+
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.6496rem;
+}
+
+.btn-disabled:hover {
+    height: 3rem;
+    padding: 0 1.3959rem;
+    justify-content: center;
+    align-items: center;
+    gap: .6345rem;
+
+    border-radius: .2538rem;
+    border: .0761rem solid var(--color-gray-2);
+    background: var(--color-gray-2);
+    color: #FFFFFF;
+
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.6496rem;
+}
+
+.input {
+    display: flex;
+    width: 20.6206rem;
+    height: 3rem;
+    padding: 0 1.0152rem;
+    align-items: center;
+    gap: .6345rem;
+    color: #FFFFFF;
+
+    border-radius: .25rem;
+    border: .0761rem solid var(--color-gray-2);
+    background: var(--color-gray-2);
+
+}
+
+.input:focus {
+    display: flex;
+    width: 20.6206rem;
+    height: 3rem;
+    padding: 0 1.0152rem;
+    align-items: center;
+    gap: .6345rem;
+
+    border-radius: 4px;
+    border: 1.218px solid var(--color-gray-0);
+    background: var(--color-gray-2);
+}
